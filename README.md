@@ -1,5 +1,31 @@
 # Portable Linked Profiles
 
+#About
+
+Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcroft/oddp-oui-share-fest-presentation-laid-out-export)
+
+## Types
+
+### Person
+
+status: *implementing*
+
+### Organization
+
+status: *planned*
+
+### Event
+
+status: *planned*
+
+### Place
+
+status: *planned*
+
+### Asset
+
+status: *planned*
+
 
 
 ## Reference Implementations
