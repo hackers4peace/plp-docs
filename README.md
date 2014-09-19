@@ -13,7 +13,7 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
  * [ ] http://schema.org/Person
  * [ ] http://smiy.sourceforge.net/cco/spec/cognitivecharacteristics.html
  * [ ] http://microformats.org/wiki/h-card
- * [ ] http://microformats.org/wiki/microformats2#h-resume
+ * [ ] http://microformats.org/wiki/h-resume
 
 ### Organization
 
@@ -27,14 +27,14 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 * status *planned*
 * schemas
  * [ ] http://schema.org/Event
- * [ ] http://microformats.org/wiki/microformats2#h-event
+ * [ ] http://microformats.org/wiki/h-event
 
 ### Place
 
 * status *planned*
 * schemas
  * [ ] http://schema.org/Place
- * [ ] http://microformats.org/wiki/microformats2#h-geo
+ * [ ] http://microformats.org/wiki/h-geo
 
 
 ### Asset
@@ -43,7 +43,7 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 * schemas
  * [ ] http://schema.org/Product
  * [ ] http://schema.org/Service
- * [ ] http://microformats.org/wiki/microformats2#h-product
+ * [ ] http://microformats.org/wiki/h-product
 
 
 ## Reference Implementations
