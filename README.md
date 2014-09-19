@@ -70,6 +70,13 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 * http://jsonresume.org/
 * http://sharedstuff.org/
 
+## Platforms that could benefit from implementing PLP
+
+* http://jplusplus.github.io/global-directory/
+* http://codefor.de/
+* https://github.com/codeforamerica/cfapi
+* http://hackerspaces.org/wiki/List_of_ALL_Hacker_Spaces
+
 ## CC0 — No Rights Reserved
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/about/cc0)
