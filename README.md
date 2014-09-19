@@ -1,6 +1,6 @@
 # Portable Linked Profiles
 
-#About
+## About
 
 Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcroft/oddp-oui-share-fest-presentation-laid-out-export)
 
@@ -8,24 +8,35 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 
 ### Person
 
-status: *implementing*
+* status *implementing*
+* schemas
+ * [ ] http://schema.org/Person
 
 ### Organization
 
-status: *planned*
+* status *planned*
+* schemas
+ * [ ] http://schema.org/Organization
 
 ### Event
 
-status: *planned*
+* status *planned*
+* schemas
+ * [ ] http://schema.org/Event
 
 ### Place
 
-status: *planned*
+* status *planned*
+* schemas
+ * [ ] http://schema.org/Place
+
 
 ### Asset
 
-status: *planned*
-
+* status *planned*
+* schemas
+ * [ ] http://schema.org/Product
+ * [ ] http://schema.org/Service
 
 
 ## Reference Implementations
