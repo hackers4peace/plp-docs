@@ -66,6 +66,7 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 
 * https://github.com/3-Round-Stones/directory
  * http://dir.w3.org
+* http://spaceapi.net/
 * http://jsonresume.org/
 * http://sharedstuff.org/
 
