@@ -69,6 +69,8 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 * http://spaceapi.net/
 * http://jsonresume.org/
 * http://sharedstuff.org/
+* http://webfinger.net/
+ * http://webfinger.net/rel/profile-page/
 
 ## Platforms that could benefit from implementing PLP
 
@@ -76,6 +78,7 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 * http://codefor.de/
 * https://github.com/codeforamerica/cfapi
 * http://hackerspaces.org/wiki/List_of_ALL_Hacker_Spaces
+ * already adoptiong SpaceAPI http://spaceapi.net/directory
 
 ## CC0 — No Rights Reserved
 
