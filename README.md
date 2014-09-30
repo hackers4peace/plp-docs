@@ -4,6 +4,11 @@
 
 Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcroft/oddp-oui-share-fest-presentation-laid-out-export)
 
+### Portability
+
+* [ ] HTTP 3XX
+* [ ] plp:Redirect document
+
 ## Types
 
 ### Person
