@@ -76,6 +76,8 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 * http://codefor.de/
 * https://github.com/codeforamerica/cfapi
 * http://hackerspaces.org/wiki/List_of_ALL_Hacker_Spaces
+* http://thisisnetneutrality.org/
+* http://directory.open-steps.org
 
 ## CC0 — No Rights Reserved
 
