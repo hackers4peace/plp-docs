@@ -22,7 +22,7 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 
 ### Organization
 
-* status *planned*
+* status *implementing*
 * schemas
  * [ ] http://schema.org/Organization
  * [ ] http://microformats.org/wiki/h-card
@@ -36,7 +36,7 @@ Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcrof
 
 ### Place
 
-* status *planned*
+* status *implementing*
 * schemas
  * [ ] http://schema.org/Place
  * [ ] http://microformats.org/wiki/h-geo
