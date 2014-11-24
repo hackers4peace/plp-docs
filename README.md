@@ -1,5 +1,7 @@
 # Portable Linked Profiles
 
+[![Gitter](http://img.shields.io/badge/chat-Gitter-blue.svg?style=flat)](https://gitter.im/hackers4peace/plp-docs)
+
 ## About
 
 Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcroft/oddp-oui-share-fest-presentation-laid-out-export)
