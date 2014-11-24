@@ -6,11 +6,11 @@
 
 Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcroft/oddp-oui-share-fest-presentation-laid-out-export)
 
-![[Open Distributed Data slides](http://image.slidesharecdn.com/oddpouisharefestpresentation-laidoutexport-140515045459-phpapp01/95/the-lovechild-of-social-media-the-sharing-economy-and-bitcoin-the-open-decentralised-data-project-21-638.jpg)](http://www.slideshare.net/alexwhitcroft/oddp-oui-share-fest-presentation-laid-out-export)
+[![Open Distributed Data slides](http://image.slidesharecdn.com/oddpouisharefestpresentation-laidoutexport-140515045459-phpapp01/95/the-lovechild-of-social-media-the-sharing-economy-and-bitcoin-the-open-decentralised-data-project-21-638.jpg)](http://www.slideshare.net/alexwhitcroft/oddp-oui-share-fest-presentation-laid-out-export)
 
 and [Data Portability video](https://vimeo.com/610179)
 
-![[Data Portability video](https://i.vimeocdn.com/video/21002671.webp?mw=638)](https://vimeo.com/610179)
+[![Data Portability video](https://i.vimeocdn.com/video/21002671.webp?mw=638)](https://vimeo.com/610179)
 
 
 ### Portability
