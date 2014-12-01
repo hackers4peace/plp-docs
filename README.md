@@ -88,13 +88,14 @@ and [Data Portability video](https://vimeo.com/610179)
 
 ## Platforms that could benefit from implementing PLP
 
+* http://directory.open-steps.org (first early adopter & contributor!)
 * http://jplusplus.github.io/global-directory/
 * http://codefor.de/
-* https://github.com/codeforamerica/cfapi
+* https://github.com/codeforamerica/cfapi (powering http://www.codeforamerica.org/brigade/ )
+* https://mozillians.org/en-US/
 * http://hackerspaces.org/wiki/List_of_ALL_Hacker_Spaces
  * already adoptiong SpaceAPI http://spaceapi.net/directory
 * http://thisisnetneutrality.org/
-* http://directory.open-steps.org
 
 ## CC0 — No Rights Reserved
 
