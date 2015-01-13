@@ -50,6 +50,11 @@ and [Data Portability video](https://vimeo.com/610179)
  * [ ] http://schema.org/Place
  * [ ] http://microformats.org/wiki/h-geo
 
+### Project
+
+ * status *implementing*
+ * schemas
+ * [ ] http://schema.org/CreativeWork
 
 ### Asset
 
@@ -96,6 +101,7 @@ and [Data Portability video](https://vimeo.com/610179)
 * http://hackerspaces.org/wiki/List_of_ALL_Hacker_Spaces
  * already adoptiong SpaceAPI http://spaceapi.net/directory
 * http://thisisnetneutrality.org/
+* http://map.ogunte.com/
 
 ## CC0 — No Rights Reserved
 
