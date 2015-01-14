@@ -24,7 +24,7 @@ and [Data Portability video](https://vimeo.com/610179)
 
 * status *implementing*
 * schemas
- * [ ] http://schema.org/Person
+ * [x] http://schema.org/Person
  * [ ] http://smiy.sourceforge.net/cco/spec/cognitivecharacteristics.html
  * [ ] http://microformats.org/wiki/h-card
  * [ ] http://microformats.org/wiki/h-resume
@@ -33,28 +33,28 @@ and [Data Portability video](https://vimeo.com/610179)
 
 * status *implementing*
 * schemas
- * [ ] http://schema.org/Organization
+ * [x] http://schema.org/Organization
  * [ ] http://microformats.org/wiki/h-card
 
 ### Event
 
-* status *planned*
+* status *implementing*
 * schemas
- * [ ] http://schema.org/Event
+ * [x] http://schema.org/Event
  * [ ] http://microformats.org/wiki/h-event
 
 ### Place
 
 * status *implementing*
 * schemas
- * [ ] http://schema.org/Place
+ * [x] http://schema.org/Place
  * [ ] http://microformats.org/wiki/h-geo
 
 ### Project
 
  * status *implementing*
  * schemas
- * [ ] http://schema.org/CreativeWork
+ * [x] http://schema.org/CreativeWork
 
 ### Asset
 
