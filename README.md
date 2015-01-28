@@ -313,6 +313,7 @@ Example
  * already adoptiong SpaceAPI http://spaceapi.net/directory
 * http://thisisnetneutrality.org/
 * http://map.ogunte.com/
+* http://johnjohndoe.github.io/CodeForFreedom2014/
 
 ## CC0 — No Rights Reserved
 
