@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "cco": "http://purl.org/ontology/cco/core#",
+    "id":"@id",
+    "type": "@type",
+    "interest": "cco:interest"
+  }
+}
