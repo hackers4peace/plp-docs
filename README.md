@@ -2,6 +2,12 @@
 
 [![Gitter](http://img.shields.io/badge/chat-Gitter-blue.svg?style=flat)](https://gitter.im/hackers4peace/plp-docs)
 
+## REFACTOR
+
+This documentation is [`viewdocs`](http://hackers4peace.viewdocs.io/plp-docs) and `previewdocs` compatible.
+
+It is being used as a `docs` submodule in hacker4peace's `plp-` repositories.
+
 ## About
 
 Please see [Open Distributed Data slides](http://www.slideshare.net/alexwhitcroft/oddp-oui-share-fest-presentation-laid-out-export)
