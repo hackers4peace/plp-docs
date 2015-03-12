@@ -48,6 +48,7 @@ For types, see the data [prototypes](http://hackers4peace.viewdocs.io/plp-docs/p
  * http://dir.w3.org
 * http://spaceapi.net/
 * http://jsonresume.org/
+* http://hcardcreator.com
 * http://sharedstuff.org/
 * http://webfinger.net/
  * http://webfinger.net/rel/profile-page/
