@@ -1,4 +1,4 @@
-###### Portable Linked Profiles
+###### [Portable Linked Profiles](http://hackers4peace.net/plp)
 
 # Provider
 
@@ -10,54 +10,14 @@ PLP Providers store profiles. They interact with PLP-Directories, serving them p
 
 The source code can be found at
 
-> https://github.com/hackers4peace/plp-converters
+> https://github.com/hackers4peace/plp-provider
 
 ## API
 
 Supports CORS ([Cross-Origin Resource Sharing](http://enable-cors.org/))
 
-We evaluate [Hydra](http://www.hydra-cg.com/) and [LDP](http://www.w3.org/TR/ldp/), for now simple Level-3 REST
+*We evaluate [Hydra](http://www.hydra-cg.com/) and [LDP](http://www.w3.org/TR/ldp/)*
 
-### POST /
-
-status: *basic implementation*
-
-if payload includes ```@id``` returns *HTTP 409 Conflict*, otherwise creates new profile
-
-request: *expects JSON-LD object with profile data* ([PLP
-Editor](https://github.com/hackers4peace/plp-editor) can
-generate them)
-
-
-```js
-{
-  "@context": "http://plp.hackers4peace.net/context.jsonld",
-  "@type": "Person",
-  "name": "Alice Wonderland",
-  "memberOf": [
-    {
-      "@id": "http://wl.tld",
-      "@type": "Organization",
-      "name": "Wonderlanderians"
-    },
-    ...
-  ],
-  ...
- }
-```
-
-content-type: *application/ld+json*
-
-response: *JSON-LD object with URI of newly created profile based on
-provider's domain name and generated [UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier)*
-
-```js
-{
- "@context": "http://plp.hackers4peace.net/context.jsonld",
- "@id": "http://provider-domain.tld/449b829a-0fbd-420a-bbe4-70d11527d62b",
- "@type" "Person"
-}
-```
 
 ### GET /:uuid
 
@@ -65,11 +25,14 @@ status: *basic implementation*
 
 gets single profile
 
-request: *currently expects no parameters*
+#### request
 
-content-type: *application/ld+json*
+* content-type: **application/ld+json**
 
-response: *JSON-LD object with full profile*
+#### response
+
+* code: **200 OK**
+* payload: *JSON-LD object with full profile*
 
 ```js
 {
@@ -89,15 +52,87 @@ response: *JSON-LD object with full profile*
 }
 ```
 
+* errors
+ * *HTTP 301 Moved Permanently* - if profile moved elsewhere
+ * *HTTP 404 Not Found* - if profile never existed
+ * *HTTP 410 Gone* - if profile existed but got deleted
+ * *HTTP 500 Internal Server Error*
+
+### POST /
+
+status: *basic implementation*
+
+creates new profile
+
+#### request
+
+* content-type: **application/ld+json**
+* headers
+ * *Authorization: Bearer [token]*
+* payload: *profile data* ([PLP
+Editor](https://github.com/hackers4peace/plp-editor) can
+generate it)
+
+
+```js
+{
+  "@context": "http://plp.hackers4peace.net/context.jsonld",
+  "@type": "Person",
+  "name": "Alice Wonderland",
+  "memberOf": [
+    {
+      "@id": "http://wl.tld",
+      "@type": "Organization",
+      "name": "Wonderlanderians"
+    },
+    ...
+  ],
+  ...
+ }
+```
+
+
+#### response
+
+* code: **201 Created**
+* content-type: **application/ld+json**
+* payload: *JSON-LD object with URI of newly created profile based on
+provider's domain name and generated [UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier)*
+
+```js
+{
+ "@context": "http://plp.hackers4peace.net/context.jsonld",
+ "@id": "http://provider-domain.tld/449b829a-0fbd-420a-bbe4-70d11527d62b",
+ "@type" "Person"
+}
+```
+
+* errors
+ * *HTTP 401 Unauthorized* - if authentication fails
+ * *HTTP 409 Conflict* - if payload includes ```@id```
+ * *HTTP 500 Internal Server Error*
+
 ### PUT /:uuid
 
 status: *basic implementation*
 
 updates profile
 
-same as POST but requires payload to have an @id matching one of the
-profiles stored on this provider
+#### request
 
+* content-type: **application/ld+json**
+* headers
+ * *Authorization: Bearer [token]*
+* payload: *same as POST but requires payload to have an @id matching one of stored profiles stored on this provider*
+
+#### response
+
+* code: **200 OK**
+* errors
+ * *HTTP 401 Unauthorized* - if authentication fails
+ * *HTTP 403 Forbidden* - if authorization fails
+ * *HTTP 400 Bad Request* - if payload includes ```@id``` different then requested URI
+ * *HTTP 500 Internal Server Error*
 
 ### DELETE /:uuid
 
@@ -105,5 +140,49 @@ status: *basic implementation*
 
 deletes profile
 
-request: *currently expects no parameters*
-response: 200 OK
+#### request
+
+* headers
+ * *Authorization: Bearer [token]*
+
+#### response
+
+* code: *204 No Content*
+* errors
+ * *HTTP 401 Unauthorized* - if authentication fails
+ * *HTTP 403 Forbidden* - if authorization fails
+ * *HTTP 500 Internal Server Error*
+
+
+## Authentication
+
+Currently we use
+[Mozilla Persona](https://developer.mozilla.org/en-US/Persona) and
+[JSON Web Token (JWT)](http://jwt.io/)
+
+### POST /auth/login
+
+status: *basic implementation*
+
+#### request
+
+* content-type: **application/json**
+* payload: [Mozilla Persona assertion](https://developer.mozilla.org/en-US/docs/Web/API/navigator.id.get)
+
+```json
+{ "assertion": "[assertion]" }
+```
+
+#### response
+
+* content-type: **application/json**
+* payload: [JSON Web Token (JWT)](http://jwt.io)
+
+```json
+{ "token": "[token]" }
+```
+
+### POST /auth/logout
+
+status: *planned*
+

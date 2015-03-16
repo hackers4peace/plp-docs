@@ -1,4 +1,4 @@
-###### Portable Linked Profiles
+###### [Portable Linked Profiles](http://hackers4peace.net/plp)
 
 # Directory
 
