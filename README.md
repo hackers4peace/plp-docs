@@ -25,6 +25,11 @@ and [Data Portability video](https://vimeo.com/610179)
 
 For types, see the data [prototypes](http://hackers4peace.viewdocs.io/plp-docs/prototypes).
 
+## JSON-LD Context
+
+JSON-LD is being used as format for storing and inter-operating with profile data.
+
+See [Context](http://ld.hackers4peace.net/contexts/plp.jsonld)
 
 ## Reference Implementations
 
