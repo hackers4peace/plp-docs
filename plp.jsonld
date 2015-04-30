@@ -11,6 +11,7 @@
     "git": "http://ld.hackers4peace.net/ns/git#",
     "ldp": "http://www.w3.org/ns/ldp#",
     "hydra": "http://www.w3.org/ns/hydra/core#",
+    "as": "http://www.w3.org/ns/activitystreams#",
     "id":"@id",
     "type": "@type",
     "website": "foaf:homepage",
