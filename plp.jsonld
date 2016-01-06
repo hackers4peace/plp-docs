@@ -1,25 +1,35 @@
 {
-  "@context": {
-    "@vocab": "http://schema.org/",
-    "plp": "http://ld.hackers4peace.net/ns/plp#",
-    "rel": "http://www.iana.org/assignments/link-relations/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "doap": "http://usefulinc.com/ns/doap#",
-    "cco": "http://purl.org/ontology/cco/core#",
-    "opo": "http://online-presence.net/opo/ns#",
-    "sec": "https://w3id.org/security#",
-    "git": "http://ld.hackers4peace.net/ns/git#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "hydra": "http://www.w3.org/ns/hydra/core#",
-    "as": "http://www.w3.org/ns/activitystreams#",
-    "id":"@id",
-    "type": "@type",
-    "website": "foaf:homepage",
-    "interest": "cco:interest",
-    "describedBy": "rel:describedby",
-    "currentLocation": "opo:currentLocation",
-    "attendeeIn": { "@reverse": "attendee" },
-    "authorOf": { "@reverse": "author" },
-    "subjectOf": { "@reverse": "about" }
-  }
+  "@context": [
+    "https://w3id.org/role/",
+    {
+      "plp": "http://ld.hackers4peace.net/ns/plp#",
+      "git": "http://ld.hackers4peace.net/ns/git#",
+      "schema": "http://schema.org/",
+      "ianarel": "http://www.iana.org/assignments/relation/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "doap": "http://usefulinc.com/ns/doap#",
+      "cco": "http://purl.org/ontology/cco/core#",
+      "opo": "http://online-presence.net/opo/ns#",
+      "sec": "https://w3id.org/security#",
+      "ldp": "http://www.w3.org/ns/ldp#",
+      "hydra": "http://www.w3.org/ns/hydra/core#",
+      "as": "http://www.w3.org/ns/activitystreams#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "void": "http://rdfs.org/ns/void#",
+      "sioc": "http://rdfs.org/sioc/ns#",
+      "org": "http://www.w3.org/ns/org#",
+      "resource": { "@id": "ldp:membershipResource", "@type": "@id" },
+      "rel": { "@id": "ldp:hasMemberRelation", "@type": "@id" },
+      "rev": { "@id": "ldp:isMemberOfRelation", "@type": "@id" },
+      "contains": { "@id": "ldp:contains", "@type": "@id" },
+      "ianarel:describedby": { "@type": "@id" },
+      "ianarel:describes": { "@type": "@id" },
+      "dcterms:creator": { "@type": "@id" },
+      "dcterms:publisher": { "@type": "@id" },
+      "dcterms:license": { "@type": "@id" },
+      "void:inDataset": { "@type": "@id" },
+      "id":"@id",
+      "type": "@type"
+    }
+  ]
 }
